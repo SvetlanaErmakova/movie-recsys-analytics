@@ -1,4 +1,5 @@
-[<img src="https://img.shields.io/badge/Streamlit-%40RecSysApp-green">](https://huggingface.co/spaces/HounchPounchGit/MoviesRecSysStreamlit)
+[<img src="https://img.shields.io/badge/Streamlit-%40
+movies_recsys_analytics-green">](https://huggingface.co/spaces/HounchPounchGit/MoviesRecSysStreamlit)
 
 # Movie Recommender System
 ## Описание
