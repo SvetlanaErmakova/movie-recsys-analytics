@@ -26,11 +26,11 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    with open('movies_df.pkl', 'rb') as f:
+    with open('data/movies_df.pkl', 'rb') as f:
         movies = pickle.load(f)
-    with open('movies_df_rec.pkl', 'rb') as f:
+    with open('data/movies_df_rec.pkl', 'rb') as f:
         movies_rec = pickle.load(f)
-    with open('cosine_sim.pkl', 'rb') as f:
+    with open('data/cosine_sim.pkl', 'rb') as f:
         similarity = pickle.load(f)
     return movies, movies_rec, similarity
 
